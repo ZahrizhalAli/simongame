@@ -84,7 +84,7 @@ cursor: pointer;
 right: 40px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
   .container {
     width : 100%;
   }
@@ -107,11 +107,12 @@ right: 40px;
   }
   .rules-container {
     font-size : 10px;
-    left : 100px;
+    left : 150px;
     top: -300px;
   }
 
   .rules {
+    display: inline-block;
     width : 30px;
     height : 30px;
   }
